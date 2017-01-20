@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": ["es2015", "dom"],
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "removeComments": true,
+    "outDir": "lib",
+    "declaration": true
+  },
+  "files": [
+    "src/logger.service.ts",
+    "src/logger.module.ts",
+    "src/silent-logger.service.provider.ts",
+    "src/verbose-logger.service.provider.ts"
+  ]
+}
