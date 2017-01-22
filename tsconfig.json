@@ -14,8 +14,8 @@
     "declaration": true
   },
   "files": [
-    "src/logger.service.ts",
     "src/logger.module.ts",
+    "src/logger.service.ts",
     "src/silent-logger.service.provider.ts",
     "src/verbose-logger.service.provider.ts"
   ]
