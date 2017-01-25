@@ -2,7 +2,9 @@ import { Injectable, Optional } from '@angular/core';
 
 @Injectable()
 export class LoggerService {
-    constructor(@Optional() private readonly tags: string[]) { }
+    constructor(@Optional() private readonly tags: string[]) {
+        this.log('LoggerService initialized.', ['logger', 'service', 'init']);
+    }
 
     log(message: string, tags?: string[], color?: string): void {
         if (this.tags) {
